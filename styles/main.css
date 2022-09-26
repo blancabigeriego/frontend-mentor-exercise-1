@@ -5,14 +5,13 @@
 .main{
     background-color: hsl(0, 0%, 100%);
     border-radius: 3%;
-    margin: 50px 10px 50px 10px;
+    margin: 50px 20px 50px 20px;
     display: flex;
     flex-direction: column;
     font-family: 'Outfit', sans-serif;
     justify-content: center;
     
-
-
+   
 }
 .qr{
     
@@ -23,16 +22,48 @@
 
 .title{
     text-align: center;
-    font-weight: 700;
+    font-weight: 900;
     color: hsl(218, 44%, 22%);
     font-size: 20px;
+    margin: 30px 20px 30px 20px;
 }
 
 .p{
     font-size: 15px;
     color:hsl(220, 15%, 55%);
     text-align: center;
+    margin: 0px 20px 30px 20px;
 }
 
 
+.footer{
+    font-size: small;
+    
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
 
+
+@media all and (min-width:1440px){
+
+    .body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     .main{
+        width: 30%;
+        height: 50%;
+        justify-content: center;
+        
+     }  
+
+    .title{
+        font-size: 30px;
+    }
+
+    .p{
+        font-size: 25px ;
+    }
+}
